@@ -22,7 +22,7 @@ body {
 .postcard {
   width: 950px; /* Adjusted width */
   height: 600px; /* Adjusted height */
-  background: rgba(255, 255, 255, 0.101);
+  background: rgba(255, 255, 255, 0.5);
   margin: 0 auto;
   border-radius: 2%;
   display: flex;
@@ -36,7 +36,7 @@ body {
 .postcard1 {
   width: 950px; /* Adjusted width */
   height: 600px; /* Adjusted height */
-  background: #f594b862;
+  background: ##f594b8;
   position: absolute;
   left: 24%;
   -webkit-filter: blur(2px);
