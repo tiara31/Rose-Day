@@ -6,7 +6,7 @@
 
 body {
   font-family: "Varela Round", "Quicksand", sans-serif;
-  background: url(background.JPG);
+  background: url(BG.JPG);
   background-size: cover; /* Ensure the background image covers the entire background */
   background-repeat: no-repeat;
   background-color: black;
@@ -20,8 +20,8 @@ body {
 }
 
 .postcard {
-  width: 850px; /* Adjusted width */
-  height: 550px; /* Adjusted height */
+  width: 950px; /* Adjusted width */
+  height: 600px; /* Adjusted height */
   background: rgba(255, 255, 255, 0.101);
   margin: 0 auto;
   border-radius: 2%;
@@ -34,8 +34,8 @@ body {
 }
 
 .postcard1 {
-  width: 850px; /* Adjusted width */
-  height: 550px; /* Adjusted height */
+  width: 950px; /* Adjusted width */
+  height: 600px; /* Adjusted height */
   background: #f594b862;
   position: absolute;
   left: 24%;
@@ -50,6 +50,7 @@ body {
   transform: rotate(2.5deg);
   transition: all 0.5s ease;
 }
+
 
 h1 {
   text-align: center;
