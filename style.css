@@ -159,4 +159,99 @@ body {
 /* Leaves styles */
 .leaves > div:nth-last-child(1) {
   position: absolute;
+  width: 55px;
+  height: 30px;
+  background: #338f37;
+  top: 120px;
+  left: 75px;
+  border-radius: 100px;
+}
 
+.leaves > div:nth-child(1) {
+  position: absolute;
+  width: 6px;
+  height: 210px;
+  background: #054c05;
+  top: 95px;
+  left: 100px;
+  border-radius: 0 0 100px 100px;
+}
+
+.leaves > div:nth-child(2) {
+  position: absolute;
+  width: 30px;
+  height: 50px;
+  border-radius: 5px 40px 20px 40px;
+  background: #054c05;
+  transform-origin: bottom;
+  transform: rotate(-30deg);
+  top: 180px;
+  left: 80px;
+  box-shadow: inset 5px 5px #066406;
+}
+
+.leaves > div:nth-child(3) {
+  position: absolute;
+  width: 30px;
+  height: 50px;
+  border-radius: 40px 5px 40px 20px;
+  background: #054c05;
+  transform-origin: bottom;
+  transform: rotate(30deg);
+  top: 150px;
+  left: 95px;
+  box-shadow: inset -5px 5px #066406;
+}
+
+/* Thorns styles */
+.thorns > div {
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 140px;
+}
+
+.thorns > div:nth-child(odd) {
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid #054c05;
+  left: 105px;
+}
+
+.thorns > div:nth-child(even) {
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-right: 5px solid #054c05;
+  left: 95px;
+}
+
+.thorns > div:nth-child(1) {
+  top: 200px;
+}
+
+.thorns > div:nth-child(2) {
+  top: 170px;
+}
+
+.thorns > div:nth-child(4) {
+  top: 230px;
+}
+
+/* Text styles */
+.text {
+  font-family: 'Great Vibes', cursive;
+  font-weight: 800;
+  font-size: 25px;
+  color: rgb(245, 20, 84);
+  text-shadow: 0 0 20px rgb(241, 94, 106);
+  margin-left: -100px;
+}
+
+.text a {
+  color: rgb(245, 20, 84);
+}
+
+.text a:hover {
+  color: white;
+  text-shadow: 0 0 20px rgb(235, 25, 42);
+}
