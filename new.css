@@ -22,7 +22,7 @@ body {
 .postcard {
   width: 950px; /* Adjusted width */
   height: 600px; /* Adjusted height */
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.25);
   margin: 0 auto;
   border-radius: 2%;
   display: flex;
@@ -48,6 +48,9 @@ body {
   padding: 3em;
   box-shadow: 0.8em 0.8em 15px rgba(0, 0, 0, 0.3);
   transform: rotate(2.5deg);
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
 
@@ -85,7 +88,7 @@ footer p {
 p {
   font-size: 18px;
   line-height: 1.6;
-  font-family: "Great Vibes", cursive;
+  font-family: "Varela Round", "Quicksand", sans-serif;
   color: #333; /* Darker text color */
   font-weight: 500; /* Adjust font weight as needed */
 }
